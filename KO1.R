@@ -9,7 +9,7 @@ library(dplyr)
 library(reshape2)
 library(ggplot2)
 
-KO1 <- memisc::spss.system.file("/Users/yuelong/Documents/RA/KO1/KO1Screening\ 100515.sav") %>%
+KO1 <- memisc::spss.system.file("...") %>%
        memisc::as.data.set() %>%  
        as.data.frame()
 
